@@ -1,0 +1,17 @@
+{
+  "name": "ioi-solutions-js",
+  "version": "0.1.1",
+  "main": ".",
+  "author": "Dusty",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --fix .",
+    "candies": "node candies",
+    "minify": "terser candies/index.js -c -m --mangle-props -o dist/candies.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "terser": "^5.9.0"
+  }
+}
